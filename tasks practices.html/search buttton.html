@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Row</title>
+    <style>
+        .navbar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background-color:#6d3fa1 ;
+        }
+
+        .navbar button {
+            padding: 8px 15px;
+            border: 0px;
+            background-color: #6d3fa1;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            border-color: white;
+        }
+
+        .navbar button:hover {
+            background-color: #8a419c;
+        }
+
+        .navbar input[type="text"] {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <button>Home</button>
+        <input type="text" placeholder="Search">
+        <button>Download</button>
+    </div>
+
+</body>
+</html>

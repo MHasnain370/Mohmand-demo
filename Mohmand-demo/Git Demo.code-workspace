@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"name": "tasks practices.html",
+			"path": "../../Users/jc/Desktop/HTML+CSS Practices/tasks practices.html"
+		},
+		{
+			"name": "JS Tutorial with projects",
+			"path": "../../Users/jc/Desktop/JS Tutorial with projects"
+		},
+		{
+			"name": "Portfolio website",
+			"path": "../../Users/jc/Desktop/Portfolio website"
+		},
+		{
+			"name": "temperature converter",
+			"path": "../../Users/jc/Desktop/temperature converter"
+		},
+		{
+			"name": "weather website",
+			"path": "../../Users/jc/Desktop/weather website"
+		},
+		{
+			"name": "Projects.js",
+			"path": "../../Users/jc/Desktop/Projects.js"
+		},
+		{
+			"name": "Python",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Projects.js"
+	}
+}

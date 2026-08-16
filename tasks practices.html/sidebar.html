@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width"device-width,initial-scale=1.0>
+       <title>
+        sidebar
+       </title> 
+    </head>
+    <style>
+        .sidebar-container{
+    position:fixed;
+    top:70px;
+    left:0;
+    display:flex;
+    height:100vh;
+}
+
+.sidebar1{
+    width:80px;
+    background:#202225;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:20px;
+}
+
+.sidebar1 img{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+.sidebar2{
+    width:200px;
+    background:#2f3136;
+    color:white;
+    padding:20px;
+}
+
+.info-header{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.plus{
+    font-size:24px;
+    color:#b9bbbe;
+}
+
+.sidebar2 p{
+    color:#b9bbbe;
+    margin:18px 0;
+    font-size:18px;
+}
+
+/* ---------------- Content ---------------- */
+
+.content{
+    margin-top:90px;
+    margin-left:300px;
+    padding:20px;
+}
+
+.content p{
+    margin:20px 0;
+    line-height:1.6;
+}
+    </style>
+    <body>
+         <div class="sidebar-container">
+
+        <div class="sidebar1">
+            <img src= "d:\MohmanD\WhatsApp Image 2026-06-23 at 2.01.14 AM (1).jpeg"alt="">
+            <img src="d:\MohmanD\WhatsApp Image 2026-06-23 at 2.01.19 AM.jpeg" alt="">
+            <img src= "d:\MohmanD\WhatsApp Image 2026-06-23 at 2.01.19 AM (2).jpeg"alt="">
+        </div>
+
+        <div class="sidebar2">
+            <div class="info-header">
+                <span>INFO</span>
+                <span class="plus">+</span>
+            </div>
+
+            <p># new-videos</p>
+            <p># updates</p>
+            <p># faq</p>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <h2>Main Content</h2>
+        <p>
+            This area represents the rest of the page.
+            Scroll to see that the Facebook header remains fixed
+            at the top and the Discord sidebar stays fixed on the left.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+
+    </body>
+</html>

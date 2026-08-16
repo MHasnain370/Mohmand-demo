@@ -1,0 +1,217 @@
+
+            .navbar{
+                display: flex;
+                align-items: center;
+
+            }
+            .back{
+                border: none;
+                background-color: white;
+                width: 40px;
+                height: 40px;
+                 color: rgb(160, 157, 157);
+                font-size: 20px;
+                cursor: pointer;
+                border-radius: 90%;
+            }
+            .back:hover{
+                background-color:rgb(248, 245, 245) ;
+
+            }
+            .forward{
+                 border: none;
+                background-color: white;
+                width: 40px;
+                height: 40px;
+                color: rgb(160, 157, 157);
+                font-size: 20px;
+                cursor: pointer;
+                padding: none;
+                border-radius: 50px;
+            }
+            .forward:hover{
+               background-color:rgb(248, 245, 245) ;
+            }
+    
+
+          .glogo{
+                border: none;
+
+
+            }
+            .input{
+                background-color: rgb(234, 245, 248);
+                border: none;
+                border-radius: 40px;
+                height: 35px;
+                width: 85%;
+                border-color: white;
+                outline: none;
+                flex: 1;
+                border: none;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: black;
+                padding-left: 20px;
+                
+
+            }
+            .input:hover{
+                background-color:rgb(226, 233, 235) ;
+            }
+            .mlogo{
+                display: grid;
+                inline-size: 25px;
+                margin-left: 30px;
+                margin-right: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                height: none;
+                border-radius: 50%;
+
+            }
+            .mlogo:hover{
+                background-color:rgb(236, 228, 228);
+            }
+            .glogo{
+                display: grid;
+                inline-size: 40px;
+                height: none;
+                border-radius: 40%;
+            }
+            .logo{
+                width: 22px;
+                height: 22px;
+            }
+            .refresh{
+                background-color: white;
+                font-size: 130%;
+                border-radius: 50px;
+                margin-left: 15px;
+                margin-right: 10px;
+                border: none;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-bottom: 6px;
+                padding-top: 6px;
+            
+                color: rgb(48, 44, 44);
+            }
+            .refresh:hover{
+                background-color:rgb(236, 228, 228) ;
+                cursor: pointer;
+            }
+            .dots{
+                background-color: white;
+                border: none;
+                font-weight: bold;
+                border-radius: 50px;
+                width: 2%;
+            height: none;
+            padding-right: 20px;
+            padding-left: 15px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+            }
+            .dots:hover{
+                background-color:rgb(236, 228, 228) ;
+            }
+            .nav-right{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                gap: 30px;
+                margin-top: 25px;
+                margin-right: 30px;
+                color:rgb(94, 82, 82);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+            }
+            .nav-right a{
+                text-decoration:none;
+                color: black;
+            }
+            .nav-right a:hover{
+                text-decoration:underline;
+            }
+            .profile{
+                background-color: rgb(29, 146, 167);
+                 display: flex;
+                 justify-content: center;
+                 font-size: 18px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                width: 35px;
+                height: 35px;
+                align-items: center;
+               border-radius: 50%;
+            }
+            .menu{
+                width: 10px;
+                font-size:xx-large;
+                color: black;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: none;
+                padding-bottom: 5px;
+                background-color: white;
+                margin-left: 15px;
+            }
+            .menu:hover{
+                background-color:rgb(236, 228, 228) ;
+            }
+            .container{
+                display:flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 100px;
+                align-items: center;
+            }
+            .logo{
+                display: flex;
+                margin-left: 510px;
+                font-size: 90px;
+                font-weight: 500;
+                margin-top: 0%;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            .blue{
+                color: rgb(66, 133, 244);
+            }
+          .red{
+            color: rgb(234, 67, 53);
+          }
+          .yellow{
+             color: rgb(251, 188, 5);
+          }
+          .green{
+            color: rgb(52, 168, 83);
+          }
+          
+           .input1{
+            
+            margin-left :285px;
+            width: 750px;
+            margin-top: 60px;
+            height: 50px; 
+            border-radius: 50px;
+            border: 1px solid #dfe1e5;
+            padding-left: 50px;
+            box-shadow: 0 1px 6px;
+            display: flex;
+            align-items: center;
+            outline: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            color: rgba(141, 137, 137, 0.932);
+           
+           }
+           .input1:hover{
+            box-shadow: 0 2px 10px;
+
+           }
+        
